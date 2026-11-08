@@ -1,0 +1,36 @@
+FLASH FICHE : mise en ligne sur GitHub Pages
+=============================================
+
+CONTENU DU DOSSIER (à envoyer tel quel, sans rien changer)
+  index.html            l'application
+  manifest.webmanifest  la carte d'identité de l'application (nom, icône, couleurs)
+  sw.js                 le fichier qui permet l'installation et l'usage hors connexion
+  icons/                les icônes tirées de votre logo
+  .nojekyll             fichier vide, indispensable pour que GitHub publie tout correctement
+
+ÉTAPES SUR GITHUB (depuis un ordinateur, c'est le plus simple)
+  1. Créez un compte sur github.com (gratuit), puis cliquez sur « New repository ».
+  2. Nom du dépôt : par exemple flash-fiche. Choisissez « Public ». Cliquez sur « Create repository ».
+  3. Cliquez sur « uploading an existing file ». Glissez TOUT le contenu du dossier :
+     index.html, manifest.webmanifest, sw.js, le dossier icons et le fichier .nojekyll.
+     (Le fichier .nojekyll est parfois caché : s'il manque, créez-le avec « Add file > Create new file »,
+     nommez-le .nojekyll et validez.)
+  4. Cliquez sur « Commit changes ».
+  5. Allez dans « Settings » > « Pages ». Dans « Branch », choisissez « main » et le dossier « / (root) », puis « Save ».
+  6. Attendez 1 à 2 minutes. L'adresse apparaît en haut de la page, de la forme :
+     https://VOTRE-NOM.github.io/flash-fiche/
+
+INSTALLER L'APPLICATION SUR LE TÉLÉPHONE
+  Android (Chrome) : ouvrez l'adresse, puis menu (trois points) > « Installer l'application »
+                     (ou « Ajouter à l'écran d'accueil »).
+  iPhone (Safari obligatoire) : ouvrez l'adresse, touchez le bouton Partager (carré avec une flèche),
+                     puis « Sur l'écran d'accueil ».
+
+METTRE À JOUR PLUS TARD (version 11, etc.)
+  1. Remplacez index.html sur GitHub (Add file > Upload files, même nom).
+  2. Dans sw.js, changez la ligne : const VERSION = 'flash-fiche-v10.1';  en  'flash-fiche-v11.0';
+  Les téléphones recevront la nouvelle version à la prochaine ouverture avec Internet.
+
+À SAVOIR
+  - Le dépôt étant public, tout le monde peut voir le code. N'y écrivez jamais de clé personnelle.
+  - L'application s'ouvre hors connexion. L'analyse approfondie et la correction demandent Internet.

@@ -1,0 +1,20 @@
+{
+  "name": "FLASH FICHE - Parasitologie & Mycologie",
+  "short_name": "Flash Fiche",
+  "description": "Analyseur de cas cliniques, fiches de révision, lexique et mots-clés en parasitologie et mycologie.",
+  "lang": "fr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#2e1065",
+  "theme_color": "#2e1065",
+  "categories": ["education", "medical"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
